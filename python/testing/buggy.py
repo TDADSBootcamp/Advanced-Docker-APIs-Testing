@@ -23,4 +23,4 @@ rated_data['charge'] = rated_data['y'] * rated_data['Y']
 
 with open('out.csv') as out_fh:
   # I like kittens, they are fluffy and cute
-  rated_data.to_csv(out_fh, columns=['x','campaign_d','charge'])
+  rated_data.to_csv(out_fh, columns=['x','campaig_name','charge'])
