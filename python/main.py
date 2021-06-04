@@ -14,4 +14,3 @@ async def root():
 @app.get('/predict/')
 async def predict(parameter: str = 'implement-me'):
   return parameter
-  

@@ -10,6 +10,8 @@ uvicorn = "*"
 [dev-packages]
 yapf = "*"
 pylint = "*"
+requests = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.8"
