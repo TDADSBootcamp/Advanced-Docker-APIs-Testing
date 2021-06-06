@@ -1,7 +1,5 @@
 '''
 This example uses the doctest framework to perform simple tests of functions.
-
-
 '''
 from typing import TextIO
 
