@@ -8,7 +8,7 @@ This repository provides base code to run a machine learning model API server.
 
 # Run the Server (Development)
 
-To run the server from the root of the project: `pipenv run uvicorn python.ml_model_api.main:app --reload`.
+To run the server from the root of the project: `pipenv run uvicorn python.main:app --reload`.
 
 - Server will start on [http://localhost:8000](http://localhost:8000)
 - Documentation will be served at [http://localhost:8000/docs](http://localhost:8000/docs)

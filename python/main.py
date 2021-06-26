@@ -11,6 +11,6 @@ async def root():
   return {'message': 'Hello World'}
 
 
-@app.get('/predict/')
+@app.get('/predict')
 async def predict(parameter: str = 'implement-me'):
   return parameter
