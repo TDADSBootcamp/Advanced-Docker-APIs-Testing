@@ -12,6 +12,7 @@ yapf = "*"
 pylint = "*"
 requests = "*"
 pandas = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.8"
